@@ -1,8 +1,8 @@
-#Proyecto de Gestión de Conexiones Remotas
+# Proyecto de Gestión de Conexiones Remotas
 
 Este es un proyecto que utiliza MongoDB, Express.js y Mongoose para gestionar y visualizar las conexiones remotas. Proporciona una interfaz web para realizar operaciones CRUD en una base de datos de direcciones IP y usuarios.
 
-##Configuración de MongoDB
+## Configuración de MongoDB
 
 Asegúrate de tener MongoDB instalado y en ejecución en tu máquina local. Puedes modificar la configuración de la base de datos en el archivo app.js.
 
@@ -19,7 +19,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/connection_ssh', {
         console.log('Error en la conexión a MongoDB: ' + err);
     }
 });
-##Configuración del Servidor Express
+## Configuración del Servidor Express
 El servidor Express se configura en el archivo app.js. Puedes personalizar el puerto en el que se ejecutará el servidor.
 
 javascript
